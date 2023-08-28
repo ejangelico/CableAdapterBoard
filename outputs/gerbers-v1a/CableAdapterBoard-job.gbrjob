@@ -1,0 +1,215 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "(6.0.4-0)"
+    },
+    "CreationDate": "2023-07-13T10:21:47-07:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "CableAdapterBoard",
+      "GUID": "4361626c-6541-4646-9170-746572426f61",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 102.45,
+      "Y": 46.19
+    },
+    "LayerNumber": 6,
+    "BoardThickness": 1.6966,
+    "Finish": "None",
+    "ImpedanceControlled": true
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.254,
+      "RegionToRegion": 0.254
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.2286,
+      "TrackToRegion": 0.3048,
+      "RegionToRegion": 0.3048
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "CableAdapterBoard-F_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CableAdapterBoard-In1_sig_Cu.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CableAdapterBoard-In2_pwr_Cu.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CableAdapterBoard-In3_pwr_Cu.gbr",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CableAdapterBoard-In4_sig_Cu.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CableAdapterBoard-B_Cu.gbr",
+      "FileFunction": "Copper,L6,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CableAdapterBoard-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CableAdapterBoard-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CableAdapterBoard-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CableAdapterBoard-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "CableAdapterBoard-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "CableAdapterBoard-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "CableAdapterBoard-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.02,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.11,
+      "Material": "FR4",
+      "DielectricConstant": "4.3",
+      "LossTangent": "0.02",
+      "Name": "F.Cu/In1_sig.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to In1_sig.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In1_sig.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.6,
+      "Material": "FR4",
+      "DielectricConstant": "4.3",
+      "LossTangent": "0.02",
+      "Name": "In1_sig.Cu/In2_pwr.Cu",
+      "Notes": "Type: dielectric layer 2 (from In1_sig.Cu to In2_pwr.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In2_pwr.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.11,
+      "Material": "FR4",
+      "DielectricConstant": "4.3",
+      "LossTangent": "0.02",
+      "Name": "In2_pwr.Cu/In3_pwr.Cu",
+      "Notes": "Type: dielectric layer 3 (from In2_pwr.Cu to In3_pwr.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "In3_pwr.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.6,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In3_pwr.Cu/In4_sig.Cu",
+      "Notes": "Type: dielectric layer 4 (from In3_pwr.Cu to In4_sig.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.011,
+      "Name": "In4_sig.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.11,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "In4_sig.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 5 (from In4_sig.Cu to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.02,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
